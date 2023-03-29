@@ -38,7 +38,7 @@ const Navbar = (props) => {
 
                 {/* home and other  */}
                 <div className="container w-2/6 flex items-center justify-center py-4 mx-auto text-gray-600 capitalize dark:text-gray-300 ">
-                    <Link to="/home" className={`p-1 text-gray-800 dark:text-gray-200 border-b-2 ${location.pathname === "/home" ? "border-blue-500" : "border-transparent"}  hover:text-gray-800 dark:hover:text-gray-200  mx-1.5 sm:mx-6`}
+                    <Link to="/" className={`p-1 text-gray-800 dark:text-gray-200 border-b-2 ${location.pathname === "/" ? "border-blue-500" : "border-transparent"}  hover:text-gray-800 dark:hover:text-gray-200  mx-1.5 sm:mx-6`}
                     >Home</Link>
 
                     <Link to="/features" className={`p-1 text-gray-800 dark:text-gray-200 border-b-2 ${location.pathname === "/features" ? "border-blue-500" : "border-transparent"}  hover:text-gray-800 dark:hover:text-gray-200  mx-1.5 sm:mx-6`}>features</Link>
@@ -106,7 +106,7 @@ const Navbar = (props) => {
                     <div className={` ${toggle === 'true' ? 'visible' : 'hidden'} items-center justify-between w-full md:flex md:w-auto md:order-1`} id="navbar-sticky">
                         <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li onClick={toggleMenu}>
-                                <Link to="/home" className={`block py-2 pl-3 pr-4  ${location.pathname === "/home" ? "text-white" : "text-slate-400"} brounded`} aria-current="page">Home</Link>
+                                <Link to="/" className={`block py-2 pl-3 pr-4  ${location.pathname === "/" ? "text-white" : "text-slate-400"} brounded`} aria-current="page">Home</Link>
                             </li>
                             <li onClick={toggleMenu}>
                                 <Link to="/features" className={`block py-2 pl-3 pr-4  ${location.pathname === "/features" ? "text-white" : "text-slate-400"} rounded `}>features</Link>

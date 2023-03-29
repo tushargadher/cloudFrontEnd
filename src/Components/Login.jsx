@@ -32,8 +32,8 @@ const Login = (props) => {
             //here we want to redirect user to the home so we write /home 
             toast.success('Logged in...Redirecting to home')
             setTimeout(() => {
-                navigate("/home");
-            }, 2000)
+                navigate("/");
+            }, 1000)
 
         }
         else {

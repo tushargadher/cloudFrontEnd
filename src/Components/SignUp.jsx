@@ -44,7 +44,7 @@ const SignUp = (props) => {
             toast.success('Account created... please login to continue.');
             setTimeout(() => {
                 navigate("/login");
-            }, 2000)
+            }, 1000)
         }
         else {
             toast.warn(json.Error,{icon:"🙋"});
@@ -63,7 +63,7 @@ const SignUp = (props) => {
 
             <div className="w-5/6 mx-auto bg-slate-200">
                 <section className="min-h-screen bg-slate-200 h-auto">
-                    <div className="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6 pt-20">
+                    <div className="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full pt-20">
                         {/* <h2>New to Cloud Notes? sign up now and start your journey</h2> */}
 
                         {/* <h1 className="font-extrabold"> Add terms and condition </h1> */}
@@ -75,7 +75,7 @@ const SignUp = (props) => {
                             />
                         </div>
                         <div className="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
-                            <div className="bg-slate-100  px-6 py-8 rounded shadow-md text-black w-full">
+                            <div className="bg-slate-100  px-6 py-6 rounded shadow-md text-black w-full mb-7">
                                 {/* form start here */}
                                 <form onSubmit={handleSubmit}>
                                     <h1 className="mb-8 text-3xl text-center">Sign up</h1>

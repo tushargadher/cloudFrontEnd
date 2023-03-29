@@ -3,7 +3,7 @@ const Features = () => {
     document.title = "CloudNotes - Features";
     return (
         <>
-            <div className="box-border bg-slate-200 h-auto w-screen px-14">
+            <div className="box-border bg-slate-200 h-auto w-screen px-3">
                 <div className="container my-24 px-2 mx-auto bg-slate-200 ">
                     <section className="mb-32 text-gray-800">
                         <div className="flex justify-center">

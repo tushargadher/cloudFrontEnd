@@ -51,7 +51,7 @@ const AddNote = (props) => {
             </div>
 
             {/* add note popup  by default it is hidden  */}
-            <div className={`${display === 'false' ? "hidden" : "visible"} modal fade fixed top-1/4 left-[11%] md:top-1/4 md:left-[37%] w-4/5 md:w-3/12 outline-none overflow-x-hidden overflow-y-auto z-10 shadow-lg shadow-gray-400`}>
+            <div className={`${display === 'false' ? "hidden" : "visible"} modal fade fixed top-1/4 left-[5%] md:top-1/4 md:left-[37%] w-4/5 md:w-3/12 outline-none overflow-x-hidden overflow-y-auto z-10 shadow-lg shadow-gray-400`}>
                 <form onSubmit={handleClick}>
                     <div className="modal-dialog relative w-auto pointer-events-none ">
                         <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">

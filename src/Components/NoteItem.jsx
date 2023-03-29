@@ -47,7 +47,7 @@ const NoteItem = (props) => {
             position="top-center"
             autoClose={3000} /> 
             {/**Edit note popup */}
-            <div className={`${disply === 'false' ? "hidden" : "visible"} modal fade w-4/5 fixed top-[20%] left-[11%] md:top-[22%] md:left-[37%] md:w-3/12 md:h-4/6 outline-none overflow-x-hidden overflow-y-auto z-10 `} style={{overflow:'hidden'}}>
+            <div className={`${disply === 'false' ? "hidden" : "visible"} modal fade w-4/5 fixed top-[20%] left-[5%] md:top-[22%] md:left-[37%] md:w-3/12 md:h-4/6 outline-none overflow-x-hidden overflow-y-auto z-10 `} style={{overflow:'hidden'}}>
                 <div className="modal-dialog relative w-auto pointer-events-none">
                     <div
                         className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">

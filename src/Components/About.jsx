@@ -4,7 +4,7 @@ const About = () => {
     document.title="CloudNotes - About";
     return (
         <>
-            <div className="bg-slate-200  w-screen p-10 box-border">
+            <div className="bg-slate-200  w-screen p-4 box-border">
 
                 <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
                     <p className="font-normal text-sm leading-3 text-indigo-700 dark:text-indigo-500 hover:text-indigo-800 cursor-pointer pb-2">About</p>
