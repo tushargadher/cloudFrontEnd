@@ -7,12 +7,10 @@ import EmptyNote from '../empty.jpg';
 const ViewNote = (props) => {
 
     const context = useContext(noteContext);
-    const { notes, fetchNote,display } = context;
+    const { notes, fetchNote, display } = context;
     const navigate = useNavigate();
 
-
     useEffect(() => {
-
         //if the token is null then we will redirect user to login page
         if (localStorage.getItem('token')) {
             fetchNote();
@@ -26,11 +24,9 @@ const ViewNote = (props) => {
 
     return (
         <>
-
             {/**edit note popup end */}
-            <div className=" h-full p-3 box-border">
+            <div className=" h-full box-border">
                 <div className="flex flex-col md:flex-row flex-wrap ">
-
 
                     {notes.length === 0 &&
                         <div className="container h-[70vh] flex items-center flex-col">
@@ -45,12 +41,7 @@ const ViewNote = (props) => {
                         })
                     }
                 </div>
-
             </div>
-
-
-
-
         </>
     );
 }

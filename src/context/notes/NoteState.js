@@ -105,13 +105,10 @@ const NoteState = (props) => {
         setUsername(json.name);
     }
 
-
     //this function is change the value of display
     const toggleDisplay = (arg) => {
         setDisplay(`${arg}`);
     }
-
-
 
     return (
         //this will provide all state of notestate

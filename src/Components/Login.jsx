@@ -11,7 +11,7 @@ const Login = (props) => {
 
     //this function is called when the form is submited
     const handleSubmit = async (e) => {
-        toast.info('Please wait a moment...', { autoClose: 2000 ,icon:"⏳"});
+        toast.info('Please wait a moment...', { autoClose: 2000, icon: "⏳" });
         //page will not reload
         e.preventDefault();
         // API call
